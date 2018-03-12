@@ -1,0 +1,45 @@
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+<div class="CH-first">
+<table class="mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp">
+  <thead>
+    <tr>
+      <th class="mdl-data-table__cell--non-numeric">SKU</th>
+      <th class="mdl-data-table__cell--non-numeric">FBA Shipment ID</th>
+      <th class="mdl-data-table__cell--non-numeric">Quantity</th>
+      <th class="mdl-data-table__cell--non-numeric">Destination</th>
+    </tr>
+  </thead>
+  <tbody class="CH-Dupe">
+    <tr>
+      <td id="sku" class="mdl-data-table__cell--non-numeric">sku_id</td>
+      <td id="fba" class="mdl-data-table__cell--non-numeric"><a target="_blank" href="https://sellercentral.amazon.com/gp/fba/inbound-shipment-workflow/index.html#fba_id/summary/tracking">fba_id</a></td>
+      <td id="qty" class="mdl-data-table__cell--non-numeric">00</td>
+      <td id="store" class="mdl-data-table__cell--non-numeric">store_id</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<style>
+  a {
+    color: #2ebbac!important;
+    font-weight: 500;
+}
+  td {
+    color: #2ebbac!important;
+  }
+  thead {
+    color: #2ebbac!important;
+  }
+  #notes_container {
+    background-color: hsl(216, 7%, 14%);
+  }
+  div#wrap {
+    float: left;
+    margin: 10px;
+  }
+  .CH-first {
+    float: left;
+  }
+</style>
