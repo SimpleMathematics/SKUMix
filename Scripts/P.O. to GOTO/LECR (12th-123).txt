@@ -1,0 +1,19 @@
+{
+    "shipment": [
+        {
+            "sku":"LECR1",
+            "fba":"FBAABCDE0UJ1",
+            "qty":"1"
+        },
+        {
+            "sku":"LECR2",
+            "fba":"FBAABCDE0UJ2",
+            "qty":"2"
+        },
+        {
+            "sku":"LECR3",
+            "fba":"FBAABCDE0UJ3",
+            "qty":"3"
+        }
+    ]
+}
